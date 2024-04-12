@@ -57,10 +57,5 @@ void HashTable::erase(long long key) {
 }
 
 int HashTable::size() {
-	//int nElements = 0;
-	//for (int i = 0; i < N; i++) {
-	//	nElements += bucketsArray[i].size();
-	//}
-	//return nElements;
 	return hashSize;
 }
