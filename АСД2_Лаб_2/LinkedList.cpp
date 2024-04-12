@@ -56,31 +56,3 @@ bool LinkedList::remove(long long key) {
 	}
 	return false;
 }
-
-//void LinkedList::clear() {
-//	while (head) {
-//		HashNode* save_head = head;
-//		head = head->next;
-//		delete save_head;
-//	}
-//}
-
-//void LinkedList::incert(Node node, int position) {
-//	if (position <= 0)
-//		return;
-//	if (!head || position == 1) {
-//		push_front(node);
-//		return;
-//	}
-//	HashNode* checkNode = head;
-//	for (int i = 1; i < position - 1; i++) {
-//		if (!checkNode->next) {
-//			return;
-//		}
-//		checkNode = checkNode->next;
-//	}
-//	HashNode* newNode = new HashNode();
-//	newNode->node = node;
-//	newNode->next = checkNode->next;
-//	checkNode->next = newNode;
-//}
